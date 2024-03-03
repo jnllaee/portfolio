@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: #0e1111;
+    fill: #0e1111;
+    background-color: #faf9f6;
+    transition: background-color 0.3s ease-in-out;
+}
+
+[data-theme="dark"] body {
+    color: #faf9f6;
+    fill: #faf9f6;
+    background-color: #0e1111;
+}
