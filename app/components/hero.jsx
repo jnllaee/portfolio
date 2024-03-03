@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Hero() {
     const { theme } = useTheme();
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
+    const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
         const handleResize = () => {

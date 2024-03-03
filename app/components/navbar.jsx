@@ -10,7 +10,7 @@ export default function Navbar() {
     const { theme } = useTheme();
     const [isOpen, setIsOpen] = useState(false);
     const navbarRef = useRef(null);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 640);
+    const [isMobile, setIsMobile] = useState(false);
 
     const toggleNavbar = () => {
         setIsOpen(!isOpen);
