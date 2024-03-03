@@ -9,14 +9,14 @@
 <br />
 <div align="center">
     <img src="public/cheems.png" alt="Logo" width="80" height="80">
-    <figcaption>Image from <a href="https://pngtree.com/freepng/big-cheems-in-8bit-pixel_6408782.html"><strong>pngtree.com</strong></a>
-    </figcaption>
+    <br>
+    <p>Image from <a href="https://pngtree.com/freepng/big-cheems-in-8bit-pixel_6408782.html"><strong>pngtree.com</strong></a></p>
 
 <h3 align="center">Personal Portfolio</h3>
   <p align="center">
     A simple portfolio made with NextJS and TailwindCSS.
     <br />
-    <a href="https://github.com/jnllaee/portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://jnllaee.vercel.app/"><strong>View the website »</strong></a>
     <br />
   </p>
 </div>
@@ -25,9 +25,9 @@
 
 ## About
 
-[![Portfolio Screenshot][product-screenshot]](https://example.com)
+[![Portfolio Screenshot][product-screenshot]](https://jnllaee.vercel.app/)
 
-A _very_ simple and responsive portfolio, made by yours truly. The portfolio consists of everything you need to know about me and what I do. Also features **light** and **dark** mode.
+A _very_ simple and responsive portfolio, made by yours truly. The portfolio consists of everything you need to know about me and what I do. Also features **light** and **dark** mode. Now available here: **https://jnllaee.vercel.app/**.
 
 ### Built With
 
