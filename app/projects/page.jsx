@@ -3,7 +3,7 @@ import PhotoCard from "../components/photoCard";
 
 export default function Projects() {
     return (
-        <main className="flex flex-col gap-5 w-10/12 pt-2 lg:pt-6 justify-center">
+        <main className="flex flex-col gap-5 w-full pt-2 lg:pt-6 justify-center">
             <h1 className="font-bold text-2xl lg:text-4xl text-center">
                 projects
             </h1>

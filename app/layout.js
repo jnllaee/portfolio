@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
             >
                 <Providers>
                     <Navbar />
-                    <main className="flex flex-row items-center justify-center w-full lg:max-w-2xl">
+                    <main className="flex flex-row items-center justify-center w-full lg:max-w-xl">
                         {children}
                     </main>
                 </Providers>

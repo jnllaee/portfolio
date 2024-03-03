@@ -16,16 +16,11 @@ export default function PhotoCard({
 
     return (
         <div
-            className={`max-w-84 flex flex-col items-center ring-1 rounded-lg hover:shadow-md hover:shadow-zinc-500 ease-in-out duration-300 overflow-clip ${
+            className={`max-w-max flex flex-col items-center ring-1 rounded-lg hover:shadow-md hover:shadow-zinc-500 ease-in-out duration-300 overflow-clip ${
                 theme === "dark" ? "ring-zinc-700" : "ring-zinc-300"
             }`}
         >
-            <Image
-                src={imageSrc}
-                width={1024}
-                height={576}
-                alt="sample image"
-            />
+            <Image src={imageSrc} width={1024} height={576} alt="image" />
             <div className="flex flex-col items-center justify-center gap-3 p-5">
                 <Link href={link}>
                     <h1 className="font-bold underline hover:text-rose-500 ease-in-out duration-300">
