@@ -12,7 +12,8 @@ const frontend = [
     "Tailwind CSS",
     "Material UI",
 ];
-const backend = ["MongoDB", "NodeJS"];
+const backend = ["NodeJS"];
+const databases = ["MongoDB", "MariaDB"];
 const vc = ["Git", "GitHub"];
 
 export default function About() {
@@ -100,6 +101,14 @@ export default function About() {
                     <h1 className="text-xl text-center font-bold">front-end</h1>
                     <div className="flex flex-row gap-3 justify-center flex-wrap">
                         {frontend.map((skillName, index) => (
+                            <IconSkills skill={skillName} key={index} />
+                        ))}
+                    </div>
+                </div>
+                <div className="flex flex-col gap-2">
+                    <h1 className="text-xl text-center font-bold">database</h1>
+                    <div className="flex flex-row gap-3 justify-center flex-wrap">
+                        {databases.map((skillName, index) => (
                             <IconSkills skill={skillName} key={index} />
                         ))}
                     </div>
